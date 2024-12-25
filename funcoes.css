@@ -1,0 +1,102 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #feffff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.titulo {
+  background-image: url("roxo_rasgado.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 90px;
+}
+
+.menu {
+  padding-left: 20px;
+  font-size: large;
+  background-color: #ffffff;
+  border: 1px solid rgb(172, 168, 168);
+  padding-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.titulo_comeco, .titulos {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.explicacao_comeco, .explicacoes {
+  text-indent: 30px;
+  font-size: 20px;
+}
+
+.exemplos {
+  font-family: JetBrains Mono;
+  background-color: #f2f2f2;
+  border: 1px solid rgb(172, 168, 168);
+  padding-left: 10px;
+  color: black;
+}
+
+.resultados {
+  font-family: JetBrains Mono;
+  background-color: #6748d9;
+  color: #feffff;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid rgb(172, 168, 168);
+}
+
+.botoes {
+  border: none;
+  border-radius: 10px;
+  background-color: #f2357b;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/*RESPONSIVIDADE DO TÍTULO --------------------------*/
+@media (min-width: 0px) and (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+    margin-right: 20%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+    margin-right: 15%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  h1 {
+    font-size: 40px;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1500px) {
+  h1 {
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+  h1 {
+    margin-right: 5%;
+  }
+}
